@@ -1,5 +1,5 @@
 ### How to use?
-d
+
 - Clone or download this repo
 - Enter to the project directory
 - Run `npm install`
@@ -18,7 +18,10 @@ You can send the message to any group by using `chatID` or group `name`, chatID 
 - `name` (optional): group name
 - `message`: the message
 
-Here the endpoint: `/send-group-message`
+Here the endpoint: 
+- `/send-group-message`
+- `/send-message`
+- `/send-file`
 
 Here the way to get the groups info (including ID & name):
 
@@ -33,7 +36,3 @@ I add an example to downloading the message media if exists. Please check it in 
 We use `mime-types` package to get the file extension by it's mimetype, so we can download all of the type of media message.
 
 And we decided (for this example) to use time as the filename, because the media filename is not certain exists.
-
-## Support Me
-
-You can make a support for this work by <a href="https://karyakarsa.com/ngekoding/">Karya Karsa</a>. Thanks
