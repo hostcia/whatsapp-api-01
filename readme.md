@@ -1,5 +1,5 @@
 ### How to use?
-
+d
 - Clone or download this repo
 - Enter to the project directory
 - Run `npm install`
